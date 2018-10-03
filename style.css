@@ -1,12 +1,20 @@
-* {
+*:not(button) {
   padding: 0;
   border: 0;
   margin: 0;
 }
 
-h1 {
+body {
   width: 500px;
-  margin: 10px auto;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 10px;
+}
+
+button {
+  margin: 5px;
 }
 
 #container {
@@ -23,4 +31,5 @@ h1 {
 
 .cell {
   background-color: #fff;
+  transition: background-color .2s;
 }
